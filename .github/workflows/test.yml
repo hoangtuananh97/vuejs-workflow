@@ -21,10 +21,10 @@ jobs:
         uses: actions/setup-node@v2.1.2
 
       # install and run environment node
-      - name: Npm install & npm build
-        run: |
-          npm install
-          npm run build
+#      - name: Npm install & npm build
+#        run: |
+#          npm install
+#          npm run build
 
       # ESLint and Prettier must be in `package.json`
       - name: Install Node.js dependencies
